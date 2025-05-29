@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(192, 253, 255);
+}
+#formulario{
+    background-color: white;
+    
+}
+#dados_pessoais{
+    margin: 12px;
+}
+h1{
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+fieldset {
+    border-radius: 10px;
+    background-color: rgb(178, 234, 236);
+}
+
+h2{
+    font-size: large;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+h3{
+    font-size: medium;
+}
+label{
+    font: bold;
+    font-family: arial;
+}
+button{
+    border-radius: 3px;
+    border-style: hidden;
+}
+
+#enviar{
+    color: white;
+    background-color: blue;
+}
+
+#mini_curriculo{
+    display: flex;
+
+}
