@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(204, 204, 128);
+}
+.Polonia{
+
+}
+#polonia1{
+    height: 100px;
+    width: 400px;
+    background-color: white;
+
+}
+#polonia2{
+    height: 100px;
+    width: 400px;
+    background-color: red;
+}
+.Italia{
+    display: flex;
+
+}
+#italia1{
+    background-color: green;
+    height: 200px;
+    width: 133px;
+}
+#italia2{
+    background-color: white;
+    height: 200px;
+    width: 133px;
+}
+#italia3{
+    background-color: red;
+    height: 200px;
+    width: 133px;
+}
+.Japao{
+    display: flex;
+    ;
+    
+
+}
+#japao1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 200px;
+    width: 400px;
+}
+#japao2{
+    background-color: red;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.Suecia{
+
+}
+#suecia1{
+    display: flex;
+    background-color: blue;
+    height: 200px;
+    width: 400px;
+}
+#suecia2{
+    align-self: center;
+    background-color: yellow;
+    width: 100px;
+    height: 50px;
+}
+#suecia3{
+    
+    background-color: yellow;
+    height: 200px;
+    width: 50px;
+}
+#suecia4{
+    align-self: center;
+    background-color: yellow;
+    width: 250px;
+    height: 50px;
+}
+.TrinidTobago{
+
+}
+#trinid_tobago1{
+    display: flex;
+    align-content: center;
+    background-color: red;
+    width: 400px;
+    height: 200px;
+}
+#trinid_tobago2{
+    align-self: center;
+    background-color: white;
+    width: 100px;
+    height: 200px;
+    transform: rotate(125deg);
+    
+}
+#trinid_tobago3{
+    background-color: black;
+    
+}
+#trinid_tobago4{
+    
+}
