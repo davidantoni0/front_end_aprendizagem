@@ -86,17 +86,22 @@ body{
 }
 #trinid_tobago1{
     display: flex;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
     background-color: red;
     width: 400px;
     height: 200px;
+
 }
 #trinid_tobago2{
     align-self: center;
-    background-color: white;
-    width: 100px;
-    height: 200px;
-    transform: rotate(125deg);
+    background-color: black;
+    border-spacing: 12px;
+    border-color: white;
+    width: 50px;
+    height: 450px;
+    transform: rotate(115deg);
+    
     
 }
 #trinid_tobago3{
