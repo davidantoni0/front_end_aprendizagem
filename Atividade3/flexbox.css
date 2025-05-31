@@ -1,5 +1,10 @@
 body{
+    width: 100%;
+    height: 100%;
     background-color: rgb(204, 204, 128);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .Polonia{
 
@@ -91,23 +96,46 @@ body{
     background-color: red;
     width: 400px;
     height: 200px;
+    overflow: hidden;
 
 }
 #trinid_tobago2{
     align-self: center;
     background-color: black;
-    border-spacing: 12px;
-    border-color: white;
+    border: 10px solid white;
     width: 50px;
     height: 450px;
-    transform: rotate(115deg);
-    
-    
+    transform: rotate(125deg); 
 }
-#trinid_tobago3{
+.GuineBissau{
+
+}
+#guine_bissau1{
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+}
+#guine_bissau2{
+    height: 100px;
+    width: 400px;
+    background-color: green;
+}
+#guine_bissau3{
+    align-content: center;
+    justify-items: center;
+    height: 200px;
+    width: 100px;
+    background-color: red;
+}
+#guine_bissau4{
+    
+    width: 70px;
+    height: 70px;
     background-color: black;
-    
+    clip-path: polygon(
+        50% 0%, 61% 35%, 98% 35%, 68% 57%,
+        79% 91%, 50% 70%, 21% 91%, 32% 57%,
+        2% 35%, 39% 35%
+    );
 }
-#trinid_tobago4{
-    
-}
+
