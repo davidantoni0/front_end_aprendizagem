@@ -127,8 +127,7 @@ body{
     width: 100px;
     background-color: red;
 }
-#guine_bissau4{
-    
+#guine_bissau4{  
     width: 70px;
     height: 70px;
     background-color: black;
@@ -136,6 +135,223 @@ body{
         50% 0%, 61% 35%, 98% 35%, 68% 57%,
         79% 91%, 50% 70%, 21% 91%, 32% 57%,
         2% 35%, 39% 35%
-    );
+    );   
+}
+.Kwuait{}
+#kuwait1{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 400px;
+    background-color: white;
+}
+#kuwait2{
+    height: 67px;
+    width: 400px;
+    background-color: green;
+}
+#kuwait2a{
+    width: 110px;
+    height: 200px;
+    background-color: black;
+    clip-path: polygon(0 0, 150% 50%, 0 100%);
+}
+#kuwait3{
+    height: 67px;
+    width: 100px;
+    background-color: black;
+}
+#kuwait4{
+    height: 66px;
+    width: 400px;
+    background-color: red;
+}
+.Grecia{}
+#grecia1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 400px;
+    background-color: white;
 }
 
+#grecia1a {
+    display: flex;
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    background-color: blue;
+}
+#grecia1b{
+    margin-top: 2px;
+    align-self: center;
+    height: 22.2px;
+    width: 44px;
+    background-color: white;
+}
+#grecia1c{
+    align-self: center;
+    height: 112px;
+    width: 22.2px;
+    background-color: white;
+}
+#grecia1d{
+    align-self: center;
+    margin-top: 2px;
+    height: 22.2px;
+    width: 44px;
+    background-color: white;
+}
+
+#grecia2, #grecia3{
+    height: 22.2px;
+    width: 400px;
+}
+
+#grecia2{
+    background-color: blue;
+}
+
+#grecia3{
+    background-color: white;
+}
+.Brasil{
+
+}
+#brasil1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 400px;
+    background-color: green;
+}
+#brasil2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+#brasil3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    border-radius: 50%;
+
+}
+#brasil4{
+    width: 150px;
+    height: 20px;
+    background-color: white;
+    top: 50%;
+    left: 0;
+    transform: rotate(20deg);
+}
+.Macedonia{
+
+}
+#macedonia1{
+    display: flex;
+    height: 200px;
+    width: 400px;
+    background-color: red;
+    position: relative;
+    overflow: hidden;
+}
+
+#macedonia2{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border: 10px solid red;
+    border-radius: 50%;
+    position: absolute;
+    top: 38%;
+    left: 44%;
+}
+#macedonia3{
+    position: absolute;
+    top: 14px;
+    left: -30px;
+    width: 260px;
+    height: 50px;
+    background-color: yellow;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+    transform: rotate(33deg);
+}
+#macedonia4{
+    position: absolute;
+    left: 110px;
+    width: 200px;
+    height: 50px;
+    background-color: yellow;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+    transform: rotate(89deg);   
+}
+#macedonia5{
+    position: absolute;
+    top: 14px;
+    left: 184px;
+    width: 260px;
+    height: 50px;
+    background-color: yellow;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+    transform: rotate(145deg);
+}
+#macedonia6{
+    position: absolute;
+    top: 85px;
+    left: 194px;
+    width: 260px;
+    height: 50px;
+    background-color: yellow;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+    transform: rotate(180deg);
+}
+#macedonia7{
+    position: absolute;
+    top: 150px;
+    left: 190px;
+    width: 260px;
+    height: 50px;
+    background-color: yellow;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+    transform: rotate(211deg);
+}
+#macedonia8{
+    position: absolute;
+    top: 175px;
+    left: 84px;
+    width: 260px;
+    height: 50px;
+    background-color: yellow;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+    transform: rotate(269deg);
+}
+#macedonia9{
+    position: absolute;
+    top: 146px;
+    left: -30px;
+    width: 260px;
+    height: 50px;
+    background-color: yellow;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+    transform: rotate(332deg);
+}
+#macedonia10{
+    position: absolute;
+    top: 85px;
+    left: -30px;
+    width: 260px;
+    height: 50px;
+    background-color: yellow;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+    transform: rotate(0deg);
+}
