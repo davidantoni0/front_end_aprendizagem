@@ -258,100 +258,39 @@ body{
 
 }
 #macedonia1{
-    display: flex;
     height: 200px;
     width: 400px;
     background-color: red;
-    position: relative;
-    overflow: hidden;
 }
-
 #macedonia2{
-    width: 50px;
-    height: 50px;
-    background-color: yellow;
-    border: 10px solid red;
-    border-radius: 50%;
-    position: absolute;
-    top: 38%;
-    left: 44%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 400px;
+    background-image: conic-gradient(
+        yellow 0deg 20deg, 
+        red 0deg 50deg,
+        yellow 0deg 65deg, 
+        red 0deg 80deg,
+        yellow 0deg 100deg, 
+        red 0deg 115deg,
+        yellow 0deg 130deg, 
+        red 0deg 160deg,
+        yellow 0deg 200deg, 
+        red 0deg 230deg,
+        yellow 0deg 245deg, 
+        red 0deg 260deg,
+        yellow 0deg 280deg, 
+        red 0deg 295deg,
+        yellow 0deg 310deg, 
+        red 0deg 340deg,
+        yellow 0deg 360deg);
 }
 #macedonia3{
-    position: absolute;
-    top: 14px;
-    left: -30px;
-    width: 260px;
     height: 50px;
+    width: 50px;
+    border-radius: 50%;
     background-color: yellow;
-    clip-path: polygon(0 0, 100% 50%, 0 100%);
-    transform: rotate(33deg);
-}
-#macedonia4{
-    position: absolute;
-    left: 110px;
-    width: 200px;
-    height: 50px;
-    background-color: yellow;
-    clip-path: polygon(0 0, 100% 50%, 0 100%);
-    transform: rotate(89deg);   
-}
-#macedonia5{
-    position: absolute;
-    top: 14px;
-    left: 184px;
-    width: 260px;
-    height: 50px;
-    background-color: yellow;
-    clip-path: polygon(0 0, 100% 50%, 0 100%);
-    transform: rotate(145deg);
-}
-#macedonia6{
-    position: absolute;
-    top: 85px;
-    left: 194px;
-    width: 260px;
-    height: 50px;
-    background-color: yellow;
-    clip-path: polygon(0 0, 100% 50%, 0 100%);
-    transform: rotate(180deg);
-}
-#macedonia7{
-    position: absolute;
-    top: 150px;
-    left: 190px;
-    width: 260px;
-    height: 50px;
-    background-color: yellow;
-    clip-path: polygon(0 0, 100% 50%, 0 100%);
-    transform: rotate(211deg);
-}
-#macedonia8{
-    position: absolute;
-    top: 175px;
-    left: 84px;
-    width: 260px;
-    height: 50px;
-    background-color: yellow;
-    clip-path: polygon(0 0, 100% 50%, 0 100%);
-    transform: rotate(269deg);
-}
-#macedonia9{
-    position: absolute;
-    top: 146px;
-    left: -30px;
-    width: 260px;
-    height: 50px;
-    background-color: yellow;
-    clip-path: polygon(0 0, 100% 50%, 0 100%);
-    transform: rotate(332deg);
-}
-#macedonia10{
-    position: absolute;
-    top: 85px;
-    left: -30px;
-    width: 260px;
-    height: 50px;
-    background-color: yellow;
-    clip-path: polygon(0 0, 100% 50%, 0 100%);
-    transform: rotate(0deg);
+    border: 10px solid red;
 }
