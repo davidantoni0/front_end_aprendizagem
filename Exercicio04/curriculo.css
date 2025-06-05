@@ -1,13 +1,10 @@
-body{
-}
 .curriculo{
-
     display: flex;
     height: 100%;
     width: 100%;
 }
 .espaco-foto{
-    height: 200px;
+    height: 30vw;
     width: auto;
     border-radius: 50%;
     border: 12px solid greenyellow;
@@ -21,7 +18,7 @@ body{
 .curriculo-informacoes{
     justify-items: center;
     height: 100%;
-    width: 50%;
+    width: 100%;
     background-color: black;
     color: white;
     text-align: center;   
@@ -38,9 +35,12 @@ body{
     color: white;
 }
 .informacoes img{
-    background-color: white;
+    background-color: greenyellow;
+    border-radius: 50%;
 }
 .curriculo-habilidades{
+    height: 100%;
+    width: 100%;
     padding-top: 20%;
     padding-left: 12px;
 }
