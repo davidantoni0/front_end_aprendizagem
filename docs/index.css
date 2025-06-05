@@ -18,7 +18,7 @@
 .curriculo-informacoes{
     justify-items: center;
     height: 100%;
-    width: 100%;
+    width: 60%;
     background-color: black;
     color: white;
     text-align: center;   
@@ -41,7 +41,7 @@
 }
 .curriculo-habilidades{
     height: 100%;
-    width: 100%;
+    width: 40%;
     padding-top: 20%;
     padding-left: 1%;
     padding-right: 5%;
