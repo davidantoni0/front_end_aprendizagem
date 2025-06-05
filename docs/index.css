@@ -1,0 +1,50 @@
+.curriculo{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.espaco-foto{
+    height: 30vw;
+    width: auto;
+    border-radius: 50%;
+    border: 12px solid greenyellow;
+    margin-top: 10%;
+    overflow: hidden;
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+.curriculo-informacoes{
+    justify-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;   
+}
+.informacoes{
+    padding-left: 10% ;
+    text-align: left;
+}
+.informacoes h2,
+.informacoes h3{
+    color: greenyellow;
+}
+.informacoes a{
+    color: white;
+}
+.informacoes img{
+    background-color: greenyellow;
+    border-radius: 50%;
+}
+.curriculo-habilidades{
+    height: 100%;
+    width: 100%;
+    padding-top: 20%;
+    padding-left: 12px;
+}
+.curriculo-habilidades h2{
+    border-bottom: 2px solid gray;
+    
+}
