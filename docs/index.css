@@ -25,6 +25,7 @@
 }
 .informacoes{
     padding-left: 10% ;
+    padding-right: 5%;
     text-align: left;
 }
 .informacoes h2,
@@ -42,7 +43,8 @@
     height: 100%;
     width: 100%;
     padding-top: 20%;
-    padding-left: 12px;
+    padding-left: 1%;
+    padding-right: 5%;
 }
 .curriculo-habilidades h2{
     border-bottom: 2px solid gray;
