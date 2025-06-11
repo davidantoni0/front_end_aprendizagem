@@ -1,3 +1,14 @@
+atividade1()
+atividade2()
+atividade3()
+atividade4()
+atividade5()
+atividade6()
+atividade7()
+atividade8()
+
+
+
 function atividade1(){
 let nome = window.prompt("Qual o seu Nome? ");
 alert(`Bemvindo ${nome} !`);
