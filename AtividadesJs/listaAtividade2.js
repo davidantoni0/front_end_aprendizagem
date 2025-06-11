@@ -9,14 +9,14 @@ function atividade1(){
     let numeroDigitado = parseInt(window.prompt("Digite um número: "));
 
     if( numeroDigitado == 0){
-        alert(`O número digitado é zero. `)
+        alert(`O número digitado é zero. `);
     }
     else{
         if(numeroDigitado % 2 == 0){
-            alert(`O número digitado é par. `)
+            alert(`O número digitado é par. `);
         }
         else{
-            alert(`O número digitado é ímpar. `)
+            alert(`O número digitado é ímpar. `);
         }
     }
 }
