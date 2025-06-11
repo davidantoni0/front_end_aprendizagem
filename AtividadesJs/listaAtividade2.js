@@ -1,10 +1,3 @@
-atividade1()
-atividade2()
-atividade3()
-atividade4()
-atividade5()
-atividade6()
-
 function atividade1(){
     let numeroDigitado = parseInt(window.prompt("Digite um número: "));
 
@@ -151,3 +144,10 @@ function atividade6(){
             window.alert(`Parabéns, você acertou todas e usou ${contador} tentativa(s). `);
         }
 }
+
+atividade1()
+atividade2()
+atividade3()
+atividade4()
+atividade5()
+atividade6()

@@ -1,14 +1,3 @@
-atividade1()
-atividade2()
-atividade3()
-atividade4()
-atividade5()
-atividade6()
-atividade7()
-atividade8()
-
-
-
 function atividade1(){
 let nome = window.prompt("Qual o seu Nome? ");
 alert(`Bemvindo ${nome} !`);
@@ -75,3 +64,12 @@ let valorCelsius = (valorFahrenheit -32) * 5/9;
 
 alert(`${valorFahrenheit}° é o equivlente à ${valorCelsius.toFixed(2)}° Celsius.`);
 }
+
+atividade1()
+atividade2()
+atividade3()
+atividade4()
+atividade5()
+atividade6()
+atividade7()
+atividade8()
