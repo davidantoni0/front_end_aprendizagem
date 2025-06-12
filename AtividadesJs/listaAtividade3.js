@@ -1,4 +1,4 @@
-function atividade1(){
+function atividade1L3(){
     let limite = 60;
     let i = parseInt(window.prompt("digite um número: "));
 
@@ -7,7 +7,7 @@ function atividade1(){
     } 
 }
 
-function atividade2(){
+function atividade2L3(){
     let i = 0;
     let resposta;
     let numeroDigitado = parseInt(window.prompt("Digite um número para receber a sua tabuada"));
@@ -18,7 +18,7 @@ function atividade2(){
         window.alert(`${numeroDigitado}x${i} = ${resposta}`); 
     }
 }
-function atividade3(){
+function atividade3L3(){
     let numeroMenor;
     let numeroMaior;
     let numeroDigitado1 = parseInt(window.prompt("Digite um número: "));
@@ -43,7 +43,7 @@ function atividade3(){
     }
 }
 
-function atividade4(){
+function atividade4L3(){
     let numeroAdivinhar = parseInt(window.prompt("Digite um número para ser adivinhado: "));
     let numeroResposta;
 
@@ -70,7 +70,7 @@ function atividade4(){
     }
 }
 
-function atividade5(){
+function atividade5L3(){
     let login = "ze@gmail.com";
     let senha = 1234;
     let contador = 0;
@@ -107,7 +107,7 @@ function atividade5(){
         window.alert("Seja bem-vindo!");
     }
 }
-function atividade6(){
+function atividade6L3(){
     let piramideAndares = parseInt(window.prompt("Digite o número de andares:"));
     let i, j, k;
     let resultado = "";
@@ -126,7 +126,7 @@ function atividade6(){
     window.alert(resultado);
 }
 
-function atividade7(){
+function atividade7L3(){
     let alturaRetangulo = parseInt(window.prompt("digite a altura que deseja no Retângulo"));
     let larguraRetangulo = parseInt(window.prompt("digite a largura que deseja no Retângulo"));
     let resultado = "";
@@ -140,10 +140,15 @@ function atividade7(){
     }
     window.alert(resultado);
 }
-atividade1();
-atividade2();
-atividade3();
-atividade4();
-atividade5();
-atividade6();
-atividade7();
+
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("Scripts carregados");
+    document.getElementById("btnAtividade1L3").addEventListener("click", atividade1L3);
+    document.getElementById("btnAtividade2L3").addEventListener("click", atividade2L3);
+    document.getElementById("btnAtividade3L3").addEventListener("click", atividade3L3);
+    document.getElementById("btnAtividade4L3").addEventListener("click", atividade4L3);
+    document.getElementById("btnAtividade5L3").addEventListener("click", atividade5L3);
+    document.getElementById("btnAtividade6L3").addEventListener("click", atividade6L3);
+    document.getElementById("btnAtividade7L3").addEventListener("click", atividade7L3);
+
+});

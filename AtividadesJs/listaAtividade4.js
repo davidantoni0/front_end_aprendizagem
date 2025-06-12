@@ -5,7 +5,7 @@ let lista = new Array(10);
 let precos = new Array(10);
 let listaQuantidade = 0;
 
-function atividade1(){
+function atividade1L4(){
     let i;
 
     for(i = 0; i < vendasDoDia.length; i++){
@@ -14,7 +14,7 @@ function atividade1(){
     window.alert(soma)
     return(soma)
 }
-function atividade2(){
+function atividade2L4(){
     let maiorNumero = vendasDoDia[0];
     let menorNumero = vendasDoDia[0];
 
@@ -28,12 +28,12 @@ function atividade2(){
     }
     window.alert(`Compra de maior valor = ${maiorNumero} \nCompra de menor valor = ${menorNumero}. `);
 }
-function atividade3(){
+function atividade3L4(){
     let ticketMedio = soma / vendasDoDia.length;
     window.alert(`O ticket médio é de R$${ticketMedio.toFixed(2)}. `);
     let contador;
 }
-function atividade4(){
+function atividade4L4(){
     let lista= [ 3, 5, 6, 7, 8, 10, 22, 55, 110 ];
     let contador = 0;
     let i = 0;
@@ -45,13 +45,13 @@ function atividade4(){
     }
     window.alert(contador);
 }
-function atividade5() {
+function atividade5L4() {
     let opcaoSelecionada;
 
     do {
         opcaoSelecionada = prompt(
             "--------------------------\n" +
-            "---Lista de compras---\n" +
+            " ---Lista de compras---\n" +
             "--------------------------\n\n" +
             "1 - Inserir Item\n" +
             "2 - Excluir Item\n" +
@@ -132,10 +132,12 @@ function gerarLista() {
     return resultado;
 }
 
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("Scripts carregados");
+    document.getElementById("btnAtividade1L4").addEventListener("click", atividade1L4);
+    document.getElementById("btnAtividade2L4").addEventListener("click", atividade2L4);
+    document.getElementById("btnAtividade3L4").addEventListener("click", atividade3L4);
+    document.getElementById("btnAtividade4L4").addEventListener("click", atividade4L4);
+    document.getElementById("btnAtividade5L4").addEventListener("click", atividade5L4);
 
-atividade1();
-atividade2();
-atividade3();
-atividade4();
-atividade5();
-
+});

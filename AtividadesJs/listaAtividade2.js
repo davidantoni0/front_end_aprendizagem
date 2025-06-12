@@ -1,4 +1,4 @@
-function atividade1(){
+function atividade1L2(){
     let numeroDigitado = parseInt(window.prompt("Digite um número: "));
 
     if( numeroDigitado == 0){
@@ -14,7 +14,7 @@ function atividade1(){
     }
 }
 
-function atividade2(){
+function atividade2L2(){
     let primeiroNumero = parseInt(window.prompt("Digite um número: "));
     let segundoNumero = parseInt(window.prompt("Digite outro número: "));
     
@@ -31,7 +31,7 @@ function atividade2(){
     }
 }
 
-function atividade3(){
+function atividade3L2(){
     let Opção1 = window.prompt("Você possui mais de 65 anos?(s/n)").toLowerCase();
     let Opção2 = window.prompt("Você possui deficiência?(s/n)").toLowerCase();
     let Opção3 = window.prompt("Você é gestante?(s/n)").toLowerCase();
@@ -44,7 +44,7 @@ function atividade3(){
     }
 }
 
-function atividade4(){
+function atividade4L2(){
 
     let idadeInserida;
     
@@ -72,7 +72,7 @@ function atividade4(){
     } while(idadeInserida > 140 || idadeInserida < 0);
 
 }
-function atividade5(){
+function atividade5L2(){
     let login = "ze@gmail.com";
     let senha = 1234;
 
@@ -94,7 +94,7 @@ function atividade5(){
         }
     } while (login != "ze@gmail.com" || senha != 1234);
 }
-function atividade6(){
+function atividade6L2(){
     let resposta1;
     let resposta2;
     let resposta3;
@@ -145,9 +145,13 @@ function atividade6(){
         }
 }
 
-atividade1();
-atividade2();
-atividade3();
-atividade4();
-atividade5();
-atividade6();
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("Scripts carregados");
+    document.getElementById("btnAtividade1L2").addEventListener("click", atividade1L2);
+    document.getElementById("btnAtividade2L2").addEventListener("click", atividade2L2);
+    document.getElementById("btnAtividade3L2").addEventListener("click", atividade3L2);
+    document.getElementById("btnAtividade4L2").addEventListener("click", atividade4L2);
+    document.getElementById("btnAtividade5L2").addEventListener("click", atividade5L2);
+    document.getElementById("btnAtividade6L2").addEventListener("click", atividade6L2);
+
+});
