@@ -145,9 +145,9 @@ function atividade6(){
         }
 }
 
-atividade1()
-atividade2()
-atividade3()
-atividade4()
-atividade5()
-atividade6()
+atividade1();
+atividade2();
+atividade3();
+atividade4();
+atividade5();
+atividade6();

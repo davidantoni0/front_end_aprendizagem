@@ -140,10 +140,10 @@ function atividade7(){
     }
     window.alert(resultado);
 }
-atividade1()
-atividade2()
-atividade3()
-atividade4()
-atividade5()
-atividade6()
-atividade7()
+atividade1();
+atividade2();
+atividade3();
+atividade4();
+atividade5();
+atividade6();
+atividade7();
