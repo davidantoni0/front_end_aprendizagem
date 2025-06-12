@@ -51,7 +51,7 @@ function atividade5() {
     do {
         opcaoSelecionada = prompt(
             "--------------------------\n" +
-            "-----Lista de compras-----\n" +
+            "---Lista de compras---\n" +
             "--------------------------\n\n" +
             "1 - Inserir Item\n" +
             "2 - Excluir Item\n" +
@@ -133,16 +133,9 @@ function gerarLista() {
 }
 
 
+atividade1();
+atividade2();
+atividade3();
+atividade4();
 atividade5();
 
-function atividade6(){
-    
-}
-function atividade7(){
-    
-}
-function atividade8(){
-    
-}
-
-atividade5()
