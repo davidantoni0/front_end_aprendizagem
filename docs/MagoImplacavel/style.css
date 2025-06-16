@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+header{
+    text-align: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;  
+}
+ul{
+    list-style: none;
+}
+.top-navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+button{
+    cursor: pointer;
+}
+.top-articles{
+    display: flex;
+}
+.main-articles{
+    margin: 2%;
+    height: 50%;
+    width: 45%;
+    background-color: aqua;
+    border: 4px solid black;
+}
